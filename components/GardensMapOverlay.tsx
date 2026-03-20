@@ -625,6 +625,7 @@ const GardensMapOverlay: React.FC<GardensMapOverlayProps> = ({ gardens, isDark, 
       : 'Apple MapKit JS'
     : '地图服务检测中...';
   const selectedStatusMeta = selectedGarden ? getGardenStatusMeta(selectedGarden.status) : null;
+  const selectedInfoCardBottomOffset = 'calc(env(safe-area-inset-bottom, 0px) + 96px)';
 
   return (
     <div className={`fixed inset-0 z-50 flex flex-col animate-in slide-in-from-bottom-10 fade-in duration-300 ${isDark ? 'bg-black/90' : 'bg-white/95'}`}>
@@ -671,7 +672,7 @@ const GardensMapOverlay: React.FC<GardensMapOverlayProps> = ({ gardens, isDark, 
               )}
 
               {tileWarning && !errorMessage && !isLoading && (
-                <div className="absolute left-3 right-3 top-3 z-10">
+                <div className="absolute right-3 top-3 z-10 w-[min(560px,calc(100%-24px))]">
                   <div className={`rounded-xl border px-3 py-2 text-xs flex items-start gap-2 ${isDark ? 'border-amber-400/30 bg-amber-500/15 text-amber-100' : 'border-amber-300 bg-amber-50 text-amber-800'}`}>
                     <AlertTriangle className="w-3.5 h-3.5 mt-0.5 shrink-0" />
                     <span>{tileWarning}</span>
@@ -681,11 +682,10 @@ const GardensMapOverlay: React.FC<GardensMapOverlayProps> = ({ gardens, isDark, 
 
               {provider === 'tencent' && selectedGarden && (
                 <div
-                  className={`absolute left-3 bottom-16 z-20 w-[min(360px,calc(100%-24px))] pointer-events-auto ${
-                    tileWarning && !errorMessage && !isLoading ? 'top-14' : 'top-3'
-                  }`}
+                  className="absolute left-3 z-20 w-[min(360px,calc(100%-24px))] pointer-events-auto"
+                  style={{ bottom: selectedInfoCardBottomOffset }}
                 >
-                  <div className={`h-full rounded-2xl border backdrop-blur-md shadow-xl p-4 flex flex-col ${isDark ? 'bg-white/10 border-white/20 text-white' : 'bg-white/90 border-black/10 text-gray-900'}`}>
+                  <div className={`rounded-2xl border backdrop-blur-md shadow-xl p-4 flex flex-col ${isDark ? 'bg-white/10 border-white/20 text-white' : 'bg-white/90 border-black/10 text-gray-900'}`}>
                     <div className="flex items-start justify-between gap-3">
                       <div>
                         <div className="text-base font-semibold leading-tight">{selectedGarden.name}</div>
@@ -698,7 +698,7 @@ const GardensMapOverlay: React.FC<GardensMapOverlayProps> = ({ gardens, isDark, 
                         关闭
                       </button>
                     </div>
-                    <div className={`text-xs mt-3 flex-1 overflow-y-auto pr-1 ${isDark ? 'text-white/80' : 'text-gray-700'}`}>
+                    <div className={`text-xs mt-3 max-h-[32vh] overflow-y-auto pr-1 ${isDark ? 'text-white/80' : 'text-gray-700'}`}>
                       {selectedGarden.description}
                     </div>
                     <div className="mt-3 pt-3 border-t flex items-center gap-2" style={{ borderColor: isDark ? 'rgba(255,255,255,0.14)' : 'rgba(0,0,0,0.08)' }}>

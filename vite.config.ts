@@ -131,8 +131,14 @@ export default defineConfig(({ mode }) => {
   const plugins: Plugin[] = [react()];
   const tencentProxy = createTencentSecurityProxy(env);
   if (tencentProxy) plugins.push(tencentProxy);
+  const rawBasePath = String(env.VITE_BASE_PATH || '/').trim();
+  const normalizedBasePath =
+    rawBasePath && rawBasePath !== '/'
+      ? `/${rawBasePath.replace(/^\/+|\/+$/g, '')}/`
+      : '/';
 
   return {
+    base: normalizedBasePath,
     server: {
       port: 3000,
       host: '0.0.0.0',

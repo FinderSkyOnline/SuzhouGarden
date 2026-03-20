@@ -33,3 +33,17 @@ Notes:
 - When `VITE_TENCENT_MAP_SERVICE_HOST` is set, frontend loads `gljs` without `key` in URL.
 - Vite dev server proxies `/_TMapService/*` and injects key server-side.
 - If `TENCENT_MAP_SK` is set, proxy auto-generates `sig` for WebService calls.
+
+## Deploy to GitHub Pages
+
+1. 创建 `.env.production`，填入仓库名作为基础路径（仓库名假设为 `SuzhouGarden`）：
+   `VITE_BASE_PATH=SuzhouGarden`
+2. 构建生产包：
+   `npm run build`
+3. 发布 `dist` 到 `gh-pages` 分支（无需改 `package.json`）：
+   `npx gh-pages -d dist`
+4. 到 GitHub 仓库 `Settings -> Pages`，将 Source 设置为 `Deploy from a branch`，分支选 `gh-pages /(root)`。
+
+说明：
+- 若你使用自定义域名，`VITE_BASE_PATH` 改为 `/`（或留空）。
+- 每次发布前都先执行 `npm run build`，再执行 `npx gh-pages -d dist`。
