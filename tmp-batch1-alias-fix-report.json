@@ -1,0 +1,39 @@
+{
+  "applied": 4,
+  "failed": 0,
+  "appliedItems": [
+    {
+      "garden": "北寺塔",
+      "poiName": "报恩寺塔",
+      "poiType": "风景名胜;风景名胜相关;旅游景点",
+      "poiAddress": "姑苏区平江街道人民路1918号",
+      "oldCoords": "31.323124,120.619411",
+      "newCoords": "31.322350,120.619574"
+    },
+    {
+      "garden": "万氏花园",
+      "poiName": "任道镕旧居",
+      "poiType": "风景名胜;风景名胜;纪念馆",
+      "poiAddress": "姑苏区王洗马巷7号",
+      "oldCoords": "31.317000,120.623200",
+      "newCoords": "31.312719,120.613913"
+    },
+    {
+      "garden": "吴家花园",
+      "poiName": "吴忠信故居",
+      "poiType": "风景名胜;风景名胜;纪念馆",
+      "poiAddress": "姑苏区东小桥弄3号",
+      "oldCoords": "31.315500,120.625500",
+      "newCoords": "31.301306,120.634828"
+    },
+    {
+      "garden": "塔影园",
+      "poiName": "塔影园景区",
+      "poiType": "体育休闲服务;休闲场所;休闲场所",
+      "poiAddress": "姑苏区山塘街与新塘路交叉口西北140米",
+      "oldCoords": "31.332712,120.580772",
+      "newCoords": "31.332712,120.580772"
+    }
+  ],
+  "failedItems": []
+}

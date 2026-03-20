@@ -1,0 +1,7 @@
+{
+  "name": "Zen Gardens iOS18",
+  "description": "A gesture-controlled 3D showcase of classical gardens featuring iOS 18 design aesthetics.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

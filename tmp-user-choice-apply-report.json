@@ -1,0 +1,162 @@
+[
+  {
+    "file": "src/data/gardens.json",
+    "id": "31",
+    "name": "慕园",
+    "oldAddress": "江苏省苏州市姑苏区人民路东富仁坊巷72号",
+    "newAddress": "江苏省苏州市富仁坊巷72号",
+    "oldCoords": "31.308283,120.622272",
+    "newCoords": "31.308283,120.622272",
+    "source": "keep_existing_valid"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "5",
+    "name": "松梅小圃",
+    "oldAddress": "常熟市沙家浜镇唐市片区王家山",
+    "newAddress": "江苏省苏州市常熟市沙家浜镇唐市王家山金桩路11号",
+    "oldCoords": "120.6186,31.2961",
+    "newCoords": "31.546749,120.855102",
+    "source": "baidu:9f97b1c570666206b64f5416"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "12",
+    "name": "陶氏花园",
+    "oldAddress": "姑苏区盛家浜8号",
+    "newAddress": "苏州市姑苏区盛家浜8号",
+    "oldCoords": "120.6305,31.317",
+    "newCoords": "31.303592,120.613201",
+    "source": "user_selected"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "13",
+    "name": "雷氏别墅花园",
+    "oldAddress": "姑苏区庙堂巷8号",
+    "newAddress": "江苏省苏州市姑苏区庙堂巷8",
+    "oldCoords": "120.615,31.319",
+    "newCoords": "120.615,31.319",
+    "source": "UNRESOLVED_COORDS"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "14",
+    "name": "墨园",
+    "oldAddress": "姑苏区人民路2114号苏州阀门厂内",
+    "newAddress": "江苏省苏州市姑苏区人民路2114号",
+    "oldCoords": "120.621,31.321",
+    "newCoords": "31.303189,120.735143",
+    "source": "amap:B0IKU7CHCZ"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "15",
+    "name": "顾氏花园",
+    "oldAddress": "姑苏区申装前4号",
+    "newAddress": "申庄前4号",
+    "oldCoords": "120.623,31.3175",
+    "newCoords": "120.623,31.3175",
+    "source": "UNRESOLVED_COORDS"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "25",
+    "name": "寒山别业遗址",
+    "oldAddress": "吴中区天平山西北面",
+    "newAddress": "苏州市西部天平山北面寒山岭",
+    "oldCoords": "120.624,31.3185",
+    "newCoords": "31.293422,120.495748",
+    "source": "amap:B0FFJ0GU5X"
+  },
+  {
+    "file": "src/data/gardens2.json",
+    "id": "26",
+    "name": "石佛寺",
+    "oldAddress": "吴中区石湖茶磨山下",
+    "newAddress": "石湖景区上方山国家森林公园内",
+    "oldCoords": "120.6255,31.319",
+    "newCoords": "31.253973,120.587854",
+    "source": "amap:B02000ICPA"
+  },
+  {
+    "file": "src/data/gardens3.json",
+    "id": "4",
+    "name": "翁家花园",
+    "oldAddress": "常熟市虞山镇书院街1号常熟市第一人民医院内",
+    "newAddress": "江苏省苏州市常熟市书院街1号，常熟市第一人民医院内",
+    "oldCoords": "120.6133,31.3079",
+    "newCoords": "120.6133,31.3079",
+    "source": "UNRESOLVED_COORDS"
+  },
+  {
+    "file": "src/data/gardens3.json",
+    "id": "5",
+    "name": "倚晴园",
+    "oldAddress": "常熟市北门大街45号虞山公园内",
+    "newAddress": "江苏省苏州市常熟市虞山公园内",
+    "oldCoords": "120.6186,31.2961",
+    "newCoords": "31.652642,120.738446",
+    "source": "amap:B0FFF9LLE5"
+  },
+  {
+    "file": "src/data/gardens3.json",
+    "id": "10",
+    "name": "珍珠塔园",
+    "oldAddress": "吴江区同里镇石皮弄16号",
+    "newAddress": "苏州市吴江区同里镇石皮弄16号",
+    "oldCoords": "120.6301,31.3145",
+    "newCoords": "31.159934,120.718064",
+    "source": "user_selected"
+  },
+  {
+    "file": "src/data/gardens3.json",
+    "id": "19",
+    "name": "南石皮记",
+    "oldAddress": "姑苏区南石皮弄4号",
+    "newAddress": "南石皮弄4号",
+    "oldCoords": "120.6238,31.3178",
+    "newCoords": "120.6238,31.3178",
+    "source": "UNRESOLVED_COORDS"
+  },
+  {
+    "file": "src/data/gardens3.json",
+    "id": "28",
+    "name": "乡畦小筑",
+    "oldAddress": "吴中区木渎镇天灵路98号天邻风景花园内",
+    "newAddress": "苏州市吴中区灵天路98号",
+    "oldCoords": "120.6232,31.317",
+    "newCoords": "31.270240,120.504136",
+    "source": "user_selected"
+  },
+  {
+    "file": "src/data/gardens4.json",
+    "id": "9",
+    "name": "延林园",
+    "oldAddress": "姑苏区西北街50号（竹之苑）31幢",
+    "newAddress": "地址不详",
+    "oldCoords": "120.6235,31.3185",
+    "newCoords": "",
+    "source": "user_selected"
+  },
+  {
+    "file": "src/data/gardens4.json",
+    "id": "11",
+    "name": "石湖梅圃",
+    "oldAddress": "吴中区吴越路47号上方山森林公园内",
+    "newAddress": "苏州市吴越路47号上方山国家森林公园内",
+    "oldCoords": "120.629,31.316",
+    "newCoords": "31.251666,120.586380",
+    "source": "user_selected"
+  },
+  {
+    "file": "src/data/gardens4.json",
+    "id": "13",
+    "name": "维摩精舍",
+    "oldAddress": "吴中区金庭镇金庭路5号",
+    "newAddress": "苏州市吴中区金庭镇金庭路5号·苏州园林雅舍客栈",
+    "oldCoords": "120.615,31.319",
+    "newCoords": "120.615,31.319",
+    "source": "UNRESOLVED_COORDS"
+  }
+]
